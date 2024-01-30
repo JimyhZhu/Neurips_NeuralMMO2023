@@ -1,0 +1,541 @@
+diff --git a/rl_track/maps/train/128/map1/map.npy b/rl_track/maps/train/128/map1/map.npy
+index 84c7821..445e6ef 100644
+Binary files a/rl_track/maps/train/128/map1/map.npy and b/rl_track/maps/train/128/map1/map.npy differ
+diff --git a/rl_track/maps/train/128/map10/map.npy b/rl_track/maps/train/128/map10/map.npy
+index 461fa2e..1aa6014 100644
+Binary files a/rl_track/maps/train/128/map10/map.npy and b/rl_track/maps/train/128/map10/map.npy differ
+diff --git a/rl_track/maps/train/128/map100/map.npy b/rl_track/maps/train/128/map100/map.npy
+index b865b87..3f572d6 100644
+Binary files a/rl_track/maps/train/128/map100/map.npy and b/rl_track/maps/train/128/map100/map.npy differ
+diff --git a/rl_track/maps/train/128/map101/map.npy b/rl_track/maps/train/128/map101/map.npy
+index 967416d..552aa12 100644
+Binary files a/rl_track/maps/train/128/map101/map.npy and b/rl_track/maps/train/128/map101/map.npy differ
+diff --git a/rl_track/maps/train/128/map102/map.npy b/rl_track/maps/train/128/map102/map.npy
+index 5ff0531..b5c3abb 100644
+Binary files a/rl_track/maps/train/128/map102/map.npy and b/rl_track/maps/train/128/map102/map.npy differ
+diff --git a/rl_track/maps/train/128/map103/map.npy b/rl_track/maps/train/128/map103/map.npy
+index 827b4df..f18523e 100644
+Binary files a/rl_track/maps/train/128/map103/map.npy and b/rl_track/maps/train/128/map103/map.npy differ
+diff --git a/rl_track/maps/train/128/map104/map.npy b/rl_track/maps/train/128/map104/map.npy
+index f902859..6493887 100644
+Binary files a/rl_track/maps/train/128/map104/map.npy and b/rl_track/maps/train/128/map104/map.npy differ
+diff --git a/rl_track/maps/train/128/map105/map.npy b/rl_track/maps/train/128/map105/map.npy
+index 5efe766..322d2c8 100644
+Binary files a/rl_track/maps/train/128/map105/map.npy and b/rl_track/maps/train/128/map105/map.npy differ
+diff --git a/rl_track/maps/train/128/map106/map.npy b/rl_track/maps/train/128/map106/map.npy
+index d7031d0..830270c 100644
+Binary files a/rl_track/maps/train/128/map106/map.npy and b/rl_track/maps/train/128/map106/map.npy differ
+diff --git a/rl_track/maps/train/128/map107/map.npy b/rl_track/maps/train/128/map107/map.npy
+index c76b7d7..8532578 100644
+Binary files a/rl_track/maps/train/128/map107/map.npy and b/rl_track/maps/train/128/map107/map.npy differ
+diff --git a/rl_track/maps/train/128/map108/map.npy b/rl_track/maps/train/128/map108/map.npy
+index dd71c2b..8506ad7 100644
+Binary files a/rl_track/maps/train/128/map108/map.npy and b/rl_track/maps/train/128/map108/map.npy differ
+diff --git a/rl_track/maps/train/128/map109/map.npy b/rl_track/maps/train/128/map109/map.npy
+index 1a683d3..b2c89a7 100644
+Binary files a/rl_track/maps/train/128/map109/map.npy and b/rl_track/maps/train/128/map109/map.npy differ
+diff --git a/rl_track/maps/train/128/map11/map.npy b/rl_track/maps/train/128/map11/map.npy
+index 3266f8a..cae9500 100644
+Binary files a/rl_track/maps/train/128/map11/map.npy and b/rl_track/maps/train/128/map11/map.npy differ
+diff --git a/rl_track/maps/train/128/map110/map.npy b/rl_track/maps/train/128/map110/map.npy
+index f966874..917875e 100644
+Binary files a/rl_track/maps/train/128/map110/map.npy and b/rl_track/maps/train/128/map110/map.npy differ
+diff --git a/rl_track/maps/train/128/map111/map.npy b/rl_track/maps/train/128/map111/map.npy
+index aaf9259..e0255c7 100644
+Binary files a/rl_track/maps/train/128/map111/map.npy and b/rl_track/maps/train/128/map111/map.npy differ
+diff --git a/rl_track/maps/train/128/map112/map.npy b/rl_track/maps/train/128/map112/map.npy
+index 85f9915..34742c5 100644
+Binary files a/rl_track/maps/train/128/map112/map.npy and b/rl_track/maps/train/128/map112/map.npy differ
+diff --git a/rl_track/maps/train/128/map113/map.npy b/rl_track/maps/train/128/map113/map.npy
+index 52eca08..cfe8eee 100644
+Binary files a/rl_track/maps/train/128/map113/map.npy and b/rl_track/maps/train/128/map113/map.npy differ
+diff --git a/rl_track/maps/train/128/map114/map.npy b/rl_track/maps/train/128/map114/map.npy
+index e2f74ea..aaa949d 100644
+Binary files a/rl_track/maps/train/128/map114/map.npy and b/rl_track/maps/train/128/map114/map.npy differ
+diff --git a/rl_track/maps/train/128/map115/map.npy b/rl_track/maps/train/128/map115/map.npy
+index 9c22e73..aac57fa 100644
+Binary files a/rl_track/maps/train/128/map115/map.npy and b/rl_track/maps/train/128/map115/map.npy differ
+diff --git a/rl_track/maps/train/128/map116/map.npy b/rl_track/maps/train/128/map116/map.npy
+index 2aaaf4d..8bab762 100644
+Binary files a/rl_track/maps/train/128/map116/map.npy and b/rl_track/maps/train/128/map116/map.npy differ
+diff --git a/rl_track/maps/train/128/map117/map.npy b/rl_track/maps/train/128/map117/map.npy
+index 4aa1baa..bfe0a49 100644
+Binary files a/rl_track/maps/train/128/map117/map.npy and b/rl_track/maps/train/128/map117/map.npy differ
+diff --git a/rl_track/maps/train/128/map118/map.npy b/rl_track/maps/train/128/map118/map.npy
+index c601aac..8ab4522 100644
+Binary files a/rl_track/maps/train/128/map118/map.npy and b/rl_track/maps/train/128/map118/map.npy differ
+diff --git a/rl_track/maps/train/128/map119/map.npy b/rl_track/maps/train/128/map119/map.npy
+index 43a588c..40dbc66 100644
+Binary files a/rl_track/maps/train/128/map119/map.npy and b/rl_track/maps/train/128/map119/map.npy differ
+diff --git a/rl_track/maps/train/128/map12/map.npy b/rl_track/maps/train/128/map12/map.npy
+index a93914b..cb07dd6 100644
+Binary files a/rl_track/maps/train/128/map12/map.npy and b/rl_track/maps/train/128/map12/map.npy differ
+diff --git a/rl_track/maps/train/128/map120/map.npy b/rl_track/maps/train/128/map120/map.npy
+index b7d2ce5..f3e7371 100644
+Binary files a/rl_track/maps/train/128/map120/map.npy and b/rl_track/maps/train/128/map120/map.npy differ
+diff --git a/rl_track/maps/train/128/map121/map.npy b/rl_track/maps/train/128/map121/map.npy
+index 14e67df..75d3de8 100644
+Binary files a/rl_track/maps/train/128/map121/map.npy and b/rl_track/maps/train/128/map121/map.npy differ
+diff --git a/rl_track/maps/train/128/map122/map.npy b/rl_track/maps/train/128/map122/map.npy
+index bdad4eb..8129883 100644
+Binary files a/rl_track/maps/train/128/map122/map.npy and b/rl_track/maps/train/128/map122/map.npy differ
+diff --git a/rl_track/maps/train/128/map123/map.npy b/rl_track/maps/train/128/map123/map.npy
+index d89f4bd..7e409d1 100644
+Binary files a/rl_track/maps/train/128/map123/map.npy and b/rl_track/maps/train/128/map123/map.npy differ
+diff --git a/rl_track/maps/train/128/map124/map.npy b/rl_track/maps/train/128/map124/map.npy
+index f28ca82..6dbad5a 100644
+Binary files a/rl_track/maps/train/128/map124/map.npy and b/rl_track/maps/train/128/map124/map.npy differ
+diff --git a/rl_track/maps/train/128/map125/map.npy b/rl_track/maps/train/128/map125/map.npy
+index 23ee83e..8052bdb 100644
+Binary files a/rl_track/maps/train/128/map125/map.npy and b/rl_track/maps/train/128/map125/map.npy differ
+diff --git a/rl_track/maps/train/128/map126/map.npy b/rl_track/maps/train/128/map126/map.npy
+index 4bdb350..66d9d03 100644
+Binary files a/rl_track/maps/train/128/map126/map.npy and b/rl_track/maps/train/128/map126/map.npy differ
+diff --git a/rl_track/maps/train/128/map127/map.npy b/rl_track/maps/train/128/map127/map.npy
+index 77bccde..af14803 100644
+Binary files a/rl_track/maps/train/128/map127/map.npy and b/rl_track/maps/train/128/map127/map.npy differ
+diff --git a/rl_track/maps/train/128/map128/map.npy b/rl_track/maps/train/128/map128/map.npy
+index 56d13c5..6a064eb 100644
+Binary files a/rl_track/maps/train/128/map128/map.npy and b/rl_track/maps/train/128/map128/map.npy differ
+diff --git a/rl_track/maps/train/128/map13/map.npy b/rl_track/maps/train/128/map13/map.npy
+index 68957d7..fe677d5 100644
+Binary files a/rl_track/maps/train/128/map13/map.npy and b/rl_track/maps/train/128/map13/map.npy differ
+diff --git a/rl_track/maps/train/128/map14/map.npy b/rl_track/maps/train/128/map14/map.npy
+index f0f1aca..91831b6 100644
+Binary files a/rl_track/maps/train/128/map14/map.npy and b/rl_track/maps/train/128/map14/map.npy differ
+diff --git a/rl_track/maps/train/128/map15/map.npy b/rl_track/maps/train/128/map15/map.npy
+index 3966d06..d93fbbb 100644
+Binary files a/rl_track/maps/train/128/map15/map.npy and b/rl_track/maps/train/128/map15/map.npy differ
+diff --git a/rl_track/maps/train/128/map16/map.npy b/rl_track/maps/train/128/map16/map.npy
+index 498639d..f117889 100644
+Binary files a/rl_track/maps/train/128/map16/map.npy and b/rl_track/maps/train/128/map16/map.npy differ
+diff --git a/rl_track/maps/train/128/map17/map.npy b/rl_track/maps/train/128/map17/map.npy
+index c50eeed..3fc3f8d 100644
+Binary files a/rl_track/maps/train/128/map17/map.npy and b/rl_track/maps/train/128/map17/map.npy differ
+diff --git a/rl_track/maps/train/128/map18/map.npy b/rl_track/maps/train/128/map18/map.npy
+index 326e688..26955c9 100644
+Binary files a/rl_track/maps/train/128/map18/map.npy and b/rl_track/maps/train/128/map18/map.npy differ
+diff --git a/rl_track/maps/train/128/map19/map.npy b/rl_track/maps/train/128/map19/map.npy
+index 4a549e1..e816a67 100644
+Binary files a/rl_track/maps/train/128/map19/map.npy and b/rl_track/maps/train/128/map19/map.npy differ
+diff --git a/rl_track/maps/train/128/map2/map.npy b/rl_track/maps/train/128/map2/map.npy
+index 533a55d..81b76b2 100644
+Binary files a/rl_track/maps/train/128/map2/map.npy and b/rl_track/maps/train/128/map2/map.npy differ
+diff --git a/rl_track/maps/train/128/map20/map.npy b/rl_track/maps/train/128/map20/map.npy
+index 37a36a2..225ee62 100644
+Binary files a/rl_track/maps/train/128/map20/map.npy and b/rl_track/maps/train/128/map20/map.npy differ
+diff --git a/rl_track/maps/train/128/map21/map.npy b/rl_track/maps/train/128/map21/map.npy
+index d630253..d12ed30 100644
+Binary files a/rl_track/maps/train/128/map21/map.npy and b/rl_track/maps/train/128/map21/map.npy differ
+diff --git a/rl_track/maps/train/128/map22/map.npy b/rl_track/maps/train/128/map22/map.npy
+index 17c80f8..50637a2 100644
+Binary files a/rl_track/maps/train/128/map22/map.npy and b/rl_track/maps/train/128/map22/map.npy differ
+diff --git a/rl_track/maps/train/128/map23/map.npy b/rl_track/maps/train/128/map23/map.npy
+index fbe5492..80537a0 100644
+Binary files a/rl_track/maps/train/128/map23/map.npy and b/rl_track/maps/train/128/map23/map.npy differ
+diff --git a/rl_track/maps/train/128/map24/map.npy b/rl_track/maps/train/128/map24/map.npy
+index ef88397..57d312d 100644
+Binary files a/rl_track/maps/train/128/map24/map.npy and b/rl_track/maps/train/128/map24/map.npy differ
+diff --git a/rl_track/maps/train/128/map25/map.npy b/rl_track/maps/train/128/map25/map.npy
+index 35ef6e2..7ff1b5e 100644
+Binary files a/rl_track/maps/train/128/map25/map.npy and b/rl_track/maps/train/128/map25/map.npy differ
+diff --git a/rl_track/maps/train/128/map26/map.npy b/rl_track/maps/train/128/map26/map.npy
+index a3b8e44..7694d8e 100644
+Binary files a/rl_track/maps/train/128/map26/map.npy and b/rl_track/maps/train/128/map26/map.npy differ
+diff --git a/rl_track/maps/train/128/map27/map.npy b/rl_track/maps/train/128/map27/map.npy
+index 4c56706..49bf384 100644
+Binary files a/rl_track/maps/train/128/map27/map.npy and b/rl_track/maps/train/128/map27/map.npy differ
+diff --git a/rl_track/maps/train/128/map28/map.npy b/rl_track/maps/train/128/map28/map.npy
+index 154eac2..35e5198 100644
+Binary files a/rl_track/maps/train/128/map28/map.npy and b/rl_track/maps/train/128/map28/map.npy differ
+diff --git a/rl_track/maps/train/128/map29/map.npy b/rl_track/maps/train/128/map29/map.npy
+index cb221fc..1687345 100644
+Binary files a/rl_track/maps/train/128/map29/map.npy and b/rl_track/maps/train/128/map29/map.npy differ
+diff --git a/rl_track/maps/train/128/map3/map.npy b/rl_track/maps/train/128/map3/map.npy
+index c659ff8..ce9a872 100644
+Binary files a/rl_track/maps/train/128/map3/map.npy and b/rl_track/maps/train/128/map3/map.npy differ
+diff --git a/rl_track/maps/train/128/map30/map.npy b/rl_track/maps/train/128/map30/map.npy
+index e49aa76..7a3a216 100644
+Binary files a/rl_track/maps/train/128/map30/map.npy and b/rl_track/maps/train/128/map30/map.npy differ
+diff --git a/rl_track/maps/train/128/map31/map.npy b/rl_track/maps/train/128/map31/map.npy
+index 9f2280b..73a96ce 100644
+Binary files a/rl_track/maps/train/128/map31/map.npy and b/rl_track/maps/train/128/map31/map.npy differ
+diff --git a/rl_track/maps/train/128/map32/map.npy b/rl_track/maps/train/128/map32/map.npy
+index db16f81..f48f4b0 100644
+Binary files a/rl_track/maps/train/128/map32/map.npy and b/rl_track/maps/train/128/map32/map.npy differ
+diff --git a/rl_track/maps/train/128/map33/map.npy b/rl_track/maps/train/128/map33/map.npy
+index 3b36c49..6a1c43b 100644
+Binary files a/rl_track/maps/train/128/map33/map.npy and b/rl_track/maps/train/128/map33/map.npy differ
+diff --git a/rl_track/maps/train/128/map34/map.npy b/rl_track/maps/train/128/map34/map.npy
+index 8ca5a57..86138c4 100644
+Binary files a/rl_track/maps/train/128/map34/map.npy and b/rl_track/maps/train/128/map34/map.npy differ
+diff --git a/rl_track/maps/train/128/map35/map.npy b/rl_track/maps/train/128/map35/map.npy
+index 33bcacc..00b7456 100644
+Binary files a/rl_track/maps/train/128/map35/map.npy and b/rl_track/maps/train/128/map35/map.npy differ
+diff --git a/rl_track/maps/train/128/map36/map.npy b/rl_track/maps/train/128/map36/map.npy
+index 58319a0..6236d88 100644
+Binary files a/rl_track/maps/train/128/map36/map.npy and b/rl_track/maps/train/128/map36/map.npy differ
+diff --git a/rl_track/maps/train/128/map37/map.npy b/rl_track/maps/train/128/map37/map.npy
+index ca7ee07..96daa77 100644
+Binary files a/rl_track/maps/train/128/map37/map.npy and b/rl_track/maps/train/128/map37/map.npy differ
+diff --git a/rl_track/maps/train/128/map38/map.npy b/rl_track/maps/train/128/map38/map.npy
+index e83cfcf..c46f514 100644
+Binary files a/rl_track/maps/train/128/map38/map.npy and b/rl_track/maps/train/128/map38/map.npy differ
+diff --git a/rl_track/maps/train/128/map39/map.npy b/rl_track/maps/train/128/map39/map.npy
+index c4893b0..5a1160b 100644
+Binary files a/rl_track/maps/train/128/map39/map.npy and b/rl_track/maps/train/128/map39/map.npy differ
+diff --git a/rl_track/maps/train/128/map4/map.npy b/rl_track/maps/train/128/map4/map.npy
+index 7442b89..494eaf1 100644
+Binary files a/rl_track/maps/train/128/map4/map.npy and b/rl_track/maps/train/128/map4/map.npy differ
+diff --git a/rl_track/maps/train/128/map40/map.npy b/rl_track/maps/train/128/map40/map.npy
+index 5199053..1d924c6 100644
+Binary files a/rl_track/maps/train/128/map40/map.npy and b/rl_track/maps/train/128/map40/map.npy differ
+diff --git a/rl_track/maps/train/128/map41/map.npy b/rl_track/maps/train/128/map41/map.npy
+index 7e4a099..8a6c357 100644
+Binary files a/rl_track/maps/train/128/map41/map.npy and b/rl_track/maps/train/128/map41/map.npy differ
+diff --git a/rl_track/maps/train/128/map42/map.npy b/rl_track/maps/train/128/map42/map.npy
+index 2d76293..a9abd3c 100644
+Binary files a/rl_track/maps/train/128/map42/map.npy and b/rl_track/maps/train/128/map42/map.npy differ
+diff --git a/rl_track/maps/train/128/map43/map.npy b/rl_track/maps/train/128/map43/map.npy
+index 328c00b..f55cce8 100644
+Binary files a/rl_track/maps/train/128/map43/map.npy and b/rl_track/maps/train/128/map43/map.npy differ
+diff --git a/rl_track/maps/train/128/map44/map.npy b/rl_track/maps/train/128/map44/map.npy
+index 21399dd..c4eb640 100644
+Binary files a/rl_track/maps/train/128/map44/map.npy and b/rl_track/maps/train/128/map44/map.npy differ
+diff --git a/rl_track/maps/train/128/map45/map.npy b/rl_track/maps/train/128/map45/map.npy
+index cfaade2..7f25ad3 100644
+Binary files a/rl_track/maps/train/128/map45/map.npy and b/rl_track/maps/train/128/map45/map.npy differ
+diff --git a/rl_track/maps/train/128/map46/map.npy b/rl_track/maps/train/128/map46/map.npy
+index cca7e38..d6b28a6 100644
+Binary files a/rl_track/maps/train/128/map46/map.npy and b/rl_track/maps/train/128/map46/map.npy differ
+diff --git a/rl_track/maps/train/128/map47/map.npy b/rl_track/maps/train/128/map47/map.npy
+index 313d204..376df1e 100644
+Binary files a/rl_track/maps/train/128/map47/map.npy and b/rl_track/maps/train/128/map47/map.npy differ
+diff --git a/rl_track/maps/train/128/map48/map.npy b/rl_track/maps/train/128/map48/map.npy
+index 105fa1c..99b1348 100644
+Binary files a/rl_track/maps/train/128/map48/map.npy and b/rl_track/maps/train/128/map48/map.npy differ
+diff --git a/rl_track/maps/train/128/map49/map.npy b/rl_track/maps/train/128/map49/map.npy
+index 316d914..eb98ef4 100644
+Binary files a/rl_track/maps/train/128/map49/map.npy and b/rl_track/maps/train/128/map49/map.npy differ
+diff --git a/rl_track/maps/train/128/map5/map.npy b/rl_track/maps/train/128/map5/map.npy
+index f5414fa..09979cb 100644
+Binary files a/rl_track/maps/train/128/map5/map.npy and b/rl_track/maps/train/128/map5/map.npy differ
+diff --git a/rl_track/maps/train/128/map50/map.npy b/rl_track/maps/train/128/map50/map.npy
+index e46710f..92f86dc 100644
+Binary files a/rl_track/maps/train/128/map50/map.npy and b/rl_track/maps/train/128/map50/map.npy differ
+diff --git a/rl_track/maps/train/128/map51/map.npy b/rl_track/maps/train/128/map51/map.npy
+index 7991e40..0e97aef 100644
+Binary files a/rl_track/maps/train/128/map51/map.npy and b/rl_track/maps/train/128/map51/map.npy differ
+diff --git a/rl_track/maps/train/128/map52/map.npy b/rl_track/maps/train/128/map52/map.npy
+index a6abbb1..c045afa 100644
+Binary files a/rl_track/maps/train/128/map52/map.npy and b/rl_track/maps/train/128/map52/map.npy differ
+diff --git a/rl_track/maps/train/128/map53/map.npy b/rl_track/maps/train/128/map53/map.npy
+index 4d95900..91fab3b 100644
+Binary files a/rl_track/maps/train/128/map53/map.npy and b/rl_track/maps/train/128/map53/map.npy differ
+diff --git a/rl_track/maps/train/128/map54/map.npy b/rl_track/maps/train/128/map54/map.npy
+index acca3a5..f0394c0 100644
+Binary files a/rl_track/maps/train/128/map54/map.npy and b/rl_track/maps/train/128/map54/map.npy differ
+diff --git a/rl_track/maps/train/128/map55/map.npy b/rl_track/maps/train/128/map55/map.npy
+index ce53ad5..b1547bd 100644
+Binary files a/rl_track/maps/train/128/map55/map.npy and b/rl_track/maps/train/128/map55/map.npy differ
+diff --git a/rl_track/maps/train/128/map56/map.npy b/rl_track/maps/train/128/map56/map.npy
+index 1402f78..363fb2b 100644
+Binary files a/rl_track/maps/train/128/map56/map.npy and b/rl_track/maps/train/128/map56/map.npy differ
+diff --git a/rl_track/maps/train/128/map57/map.npy b/rl_track/maps/train/128/map57/map.npy
+index f58bcfd..4735f38 100644
+Binary files a/rl_track/maps/train/128/map57/map.npy and b/rl_track/maps/train/128/map57/map.npy differ
+diff --git a/rl_track/maps/train/128/map58/map.npy b/rl_track/maps/train/128/map58/map.npy
+index a7505c9..78c5f8b 100644
+Binary files a/rl_track/maps/train/128/map58/map.npy and b/rl_track/maps/train/128/map58/map.npy differ
+diff --git a/rl_track/maps/train/128/map59/map.npy b/rl_track/maps/train/128/map59/map.npy
+index 41f57af..6493efa 100644
+Binary files a/rl_track/maps/train/128/map59/map.npy and b/rl_track/maps/train/128/map59/map.npy differ
+diff --git a/rl_track/maps/train/128/map6/map.npy b/rl_track/maps/train/128/map6/map.npy
+index 397b97a..12a0543 100644
+Binary files a/rl_track/maps/train/128/map6/map.npy and b/rl_track/maps/train/128/map6/map.npy differ
+diff --git a/rl_track/maps/train/128/map60/map.npy b/rl_track/maps/train/128/map60/map.npy
+index 49e1357..1e3c693 100644
+Binary files a/rl_track/maps/train/128/map60/map.npy and b/rl_track/maps/train/128/map60/map.npy differ
+diff --git a/rl_track/maps/train/128/map61/map.npy b/rl_track/maps/train/128/map61/map.npy
+index 08584bd..ecbe0e5 100644
+Binary files a/rl_track/maps/train/128/map61/map.npy and b/rl_track/maps/train/128/map61/map.npy differ
+diff --git a/rl_track/maps/train/128/map62/map.npy b/rl_track/maps/train/128/map62/map.npy
+index d5765f9..d8e1ceb 100644
+Binary files a/rl_track/maps/train/128/map62/map.npy and b/rl_track/maps/train/128/map62/map.npy differ
+diff --git a/rl_track/maps/train/128/map63/map.npy b/rl_track/maps/train/128/map63/map.npy
+index 02b01a4..baf4b98 100644
+Binary files a/rl_track/maps/train/128/map63/map.npy and b/rl_track/maps/train/128/map63/map.npy differ
+diff --git a/rl_track/maps/train/128/map64/map.npy b/rl_track/maps/train/128/map64/map.npy
+index f32b6a2..790322c 100644
+Binary files a/rl_track/maps/train/128/map64/map.npy and b/rl_track/maps/train/128/map64/map.npy differ
+diff --git a/rl_track/maps/train/128/map65/map.npy b/rl_track/maps/train/128/map65/map.npy
+index ff395bf..6ff44ca 100644
+Binary files a/rl_track/maps/train/128/map65/map.npy and b/rl_track/maps/train/128/map65/map.npy differ
+diff --git a/rl_track/maps/train/128/map66/map.npy b/rl_track/maps/train/128/map66/map.npy
+index 84e9b95..77c8e68 100644
+Binary files a/rl_track/maps/train/128/map66/map.npy and b/rl_track/maps/train/128/map66/map.npy differ
+diff --git a/rl_track/maps/train/128/map67/map.npy b/rl_track/maps/train/128/map67/map.npy
+index 68ecc2b..971c295 100644
+Binary files a/rl_track/maps/train/128/map67/map.npy and b/rl_track/maps/train/128/map67/map.npy differ
+diff --git a/rl_track/maps/train/128/map68/map.npy b/rl_track/maps/train/128/map68/map.npy
+index 69c8e60..61b28c6 100644
+Binary files a/rl_track/maps/train/128/map68/map.npy and b/rl_track/maps/train/128/map68/map.npy differ
+diff --git a/rl_track/maps/train/128/map69/map.npy b/rl_track/maps/train/128/map69/map.npy
+index 3e618d0..069d55d 100644
+Binary files a/rl_track/maps/train/128/map69/map.npy and b/rl_track/maps/train/128/map69/map.npy differ
+diff --git a/rl_track/maps/train/128/map7/map.npy b/rl_track/maps/train/128/map7/map.npy
+index 54f1ed6..ac31493 100644
+Binary files a/rl_track/maps/train/128/map7/map.npy and b/rl_track/maps/train/128/map7/map.npy differ
+diff --git a/rl_track/maps/train/128/map70/map.npy b/rl_track/maps/train/128/map70/map.npy
+index 9c55de9..34b7583 100644
+Binary files a/rl_track/maps/train/128/map70/map.npy and b/rl_track/maps/train/128/map70/map.npy differ
+diff --git a/rl_track/maps/train/128/map71/map.npy b/rl_track/maps/train/128/map71/map.npy
+index 1e35e6b..ed9d618 100644
+Binary files a/rl_track/maps/train/128/map71/map.npy and b/rl_track/maps/train/128/map71/map.npy differ
+diff --git a/rl_track/maps/train/128/map72/map.npy b/rl_track/maps/train/128/map72/map.npy
+index b6b9710..9e25d08 100644
+Binary files a/rl_track/maps/train/128/map72/map.npy and b/rl_track/maps/train/128/map72/map.npy differ
+diff --git a/rl_track/maps/train/128/map73/map.npy b/rl_track/maps/train/128/map73/map.npy
+index 84dad0f..420d07f 100644
+Binary files a/rl_track/maps/train/128/map73/map.npy and b/rl_track/maps/train/128/map73/map.npy differ
+diff --git a/rl_track/maps/train/128/map74/map.npy b/rl_track/maps/train/128/map74/map.npy
+index d4bddd1..241524e 100644
+Binary files a/rl_track/maps/train/128/map74/map.npy and b/rl_track/maps/train/128/map74/map.npy differ
+diff --git a/rl_track/maps/train/128/map75/map.npy b/rl_track/maps/train/128/map75/map.npy
+index 17da9f3..d6591d4 100644
+Binary files a/rl_track/maps/train/128/map75/map.npy and b/rl_track/maps/train/128/map75/map.npy differ
+diff --git a/rl_track/maps/train/128/map76/map.npy b/rl_track/maps/train/128/map76/map.npy
+index dceef05..78c9d24 100644
+Binary files a/rl_track/maps/train/128/map76/map.npy and b/rl_track/maps/train/128/map76/map.npy differ
+diff --git a/rl_track/maps/train/128/map77/map.npy b/rl_track/maps/train/128/map77/map.npy
+index fcd499f..65edda8 100644
+Binary files a/rl_track/maps/train/128/map77/map.npy and b/rl_track/maps/train/128/map77/map.npy differ
+diff --git a/rl_track/maps/train/128/map78/map.npy b/rl_track/maps/train/128/map78/map.npy
+index 704956b..10f4bfd 100644
+Binary files a/rl_track/maps/train/128/map78/map.npy and b/rl_track/maps/train/128/map78/map.npy differ
+diff --git a/rl_track/maps/train/128/map79/map.npy b/rl_track/maps/train/128/map79/map.npy
+index 37a9b7d..2cf9b7e 100644
+Binary files a/rl_track/maps/train/128/map79/map.npy and b/rl_track/maps/train/128/map79/map.npy differ
+diff --git a/rl_track/maps/train/128/map8/map.npy b/rl_track/maps/train/128/map8/map.npy
+index 61e3f99..5969e14 100644
+Binary files a/rl_track/maps/train/128/map8/map.npy and b/rl_track/maps/train/128/map8/map.npy differ
+diff --git a/rl_track/maps/train/128/map80/map.npy b/rl_track/maps/train/128/map80/map.npy
+index ab9056d..f845aad 100644
+Binary files a/rl_track/maps/train/128/map80/map.npy and b/rl_track/maps/train/128/map80/map.npy differ
+diff --git a/rl_track/maps/train/128/map81/map.npy b/rl_track/maps/train/128/map81/map.npy
+index 3a1978b..1326aa1 100644
+Binary files a/rl_track/maps/train/128/map81/map.npy and b/rl_track/maps/train/128/map81/map.npy differ
+diff --git a/rl_track/maps/train/128/map82/map.npy b/rl_track/maps/train/128/map82/map.npy
+index f92a87a..f5af0b3 100644
+Binary files a/rl_track/maps/train/128/map82/map.npy and b/rl_track/maps/train/128/map82/map.npy differ
+diff --git a/rl_track/maps/train/128/map83/map.npy b/rl_track/maps/train/128/map83/map.npy
+index 1f771c0..8f4463d 100644
+Binary files a/rl_track/maps/train/128/map83/map.npy and b/rl_track/maps/train/128/map83/map.npy differ
+diff --git a/rl_track/maps/train/128/map84/map.npy b/rl_track/maps/train/128/map84/map.npy
+index 5a0f8de..06db4e7 100644
+Binary files a/rl_track/maps/train/128/map84/map.npy and b/rl_track/maps/train/128/map84/map.npy differ
+diff --git a/rl_track/maps/train/128/map85/map.npy b/rl_track/maps/train/128/map85/map.npy
+index fc5b1b7..26b9e8a 100644
+Binary files a/rl_track/maps/train/128/map85/map.npy and b/rl_track/maps/train/128/map85/map.npy differ
+diff --git a/rl_track/maps/train/128/map86/map.npy b/rl_track/maps/train/128/map86/map.npy
+index a622581..e41ea2c 100644
+Binary files a/rl_track/maps/train/128/map86/map.npy and b/rl_track/maps/train/128/map86/map.npy differ
+diff --git a/rl_track/maps/train/128/map87/map.npy b/rl_track/maps/train/128/map87/map.npy
+index e5c38be..0e386e5 100644
+Binary files a/rl_track/maps/train/128/map87/map.npy and b/rl_track/maps/train/128/map87/map.npy differ
+diff --git a/rl_track/maps/train/128/map88/map.npy b/rl_track/maps/train/128/map88/map.npy
+index 9c9d335..ad4bf32 100644
+Binary files a/rl_track/maps/train/128/map88/map.npy and b/rl_track/maps/train/128/map88/map.npy differ
+diff --git a/rl_track/maps/train/128/map89/map.npy b/rl_track/maps/train/128/map89/map.npy
+index 53e34c3..ea478f7 100644
+Binary files a/rl_track/maps/train/128/map89/map.npy and b/rl_track/maps/train/128/map89/map.npy differ
+diff --git a/rl_track/maps/train/128/map9/map.npy b/rl_track/maps/train/128/map9/map.npy
+index cd275be..9d5ed89 100644
+Binary files a/rl_track/maps/train/128/map9/map.npy and b/rl_track/maps/train/128/map9/map.npy differ
+diff --git a/rl_track/maps/train/128/map90/map.npy b/rl_track/maps/train/128/map90/map.npy
+index 6dccdec..eb5af1c 100644
+Binary files a/rl_track/maps/train/128/map90/map.npy and b/rl_track/maps/train/128/map90/map.npy differ
+diff --git a/rl_track/maps/train/128/map91/map.npy b/rl_track/maps/train/128/map91/map.npy
+index e194249..b2a7041 100644
+Binary files a/rl_track/maps/train/128/map91/map.npy and b/rl_track/maps/train/128/map91/map.npy differ
+diff --git a/rl_track/maps/train/128/map92/map.npy b/rl_track/maps/train/128/map92/map.npy
+index 812dc01..df001c4 100644
+Binary files a/rl_track/maps/train/128/map92/map.npy and b/rl_track/maps/train/128/map92/map.npy differ
+diff --git a/rl_track/maps/train/128/map93/map.npy b/rl_track/maps/train/128/map93/map.npy
+index be0da5b..aaae4d8 100644
+Binary files a/rl_track/maps/train/128/map93/map.npy and b/rl_track/maps/train/128/map93/map.npy differ
+diff --git a/rl_track/maps/train/128/map94/map.npy b/rl_track/maps/train/128/map94/map.npy
+index 157112c..ad9543b 100644
+Binary files a/rl_track/maps/train/128/map94/map.npy and b/rl_track/maps/train/128/map94/map.npy differ
+diff --git a/rl_track/maps/train/128/map95/map.npy b/rl_track/maps/train/128/map95/map.npy
+index 4a9036f..1a3ea5b 100644
+Binary files a/rl_track/maps/train/128/map95/map.npy and b/rl_track/maps/train/128/map95/map.npy differ
+diff --git a/rl_track/maps/train/128/map96/map.npy b/rl_track/maps/train/128/map96/map.npy
+index 09f04c4..d193b60 100644
+Binary files a/rl_track/maps/train/128/map96/map.npy and b/rl_track/maps/train/128/map96/map.npy differ
+diff --git a/rl_track/maps/train/128/map97/map.npy b/rl_track/maps/train/128/map97/map.npy
+index fd7de22..a9679c3 100644
+Binary files a/rl_track/maps/train/128/map97/map.npy and b/rl_track/maps/train/128/map97/map.npy differ
+diff --git a/rl_track/maps/train/128/map98/map.npy b/rl_track/maps/train/128/map98/map.npy
+index 444292a..1abc29d 100644
+Binary files a/rl_track/maps/train/128/map98/map.npy and b/rl_track/maps/train/128/map98/map.npy differ
+diff --git a/rl_track/maps/train/128/map99/map.npy b/rl_track/maps/train/128/map99/map.npy
+index d08eadc..81a5ef8 100644
+Binary files a/rl_track/maps/train/128/map99/map.npy and b/rl_track/maps/train/128/map99/map.npy differ
+diff --git a/rl_track/reinforcement_learning/__pycache__/config.cpython-310.pyc b/rl_track/reinforcement_learning/__pycache__/config.cpython-310.pyc
+index 133399e..40f801c 100644
+Binary files a/rl_track/reinforcement_learning/__pycache__/config.cpython-310.pyc and b/rl_track/reinforcement_learning/__pycache__/config.cpython-310.pyc differ
+diff --git a/rl_track/reinforcement_learning/__pycache__/policy.cpython-310.pyc b/rl_track/reinforcement_learning/__pycache__/policy.cpython-310.pyc
+index 7d45df6..63d2734 100644
+Binary files a/rl_track/reinforcement_learning/__pycache__/policy.cpython-310.pyc and b/rl_track/reinforcement_learning/__pycache__/policy.cpython-310.pyc differ
+diff --git a/rl_track/reinforcement_learning/policy.py b/rl_track/reinforcement_learning/policy.py
+index 7b04dac..cb4d5c2 100644
+--- a/rl_track/reinforcement_learning/policy.py
++++ b/rl_track/reinforcement_learning/policy.py
+@@ -86,7 +86,7 @@ class Baseline(pufferlib.models.Policy):
+     pooled_player_embeddings = player_embeddings.mean(dim=1)
+    
+ 
+-    print(f"tile:{tile.shape}, my_agent:{my_agent.shape},pooled_agent:{pooled_player_embeddings.shape},pooled_item:{pooled_item_embeddings.shape},pooled_market:{market.shape}, task.shape:{task.shape}")
++    #print(f"tile:{tile.shape}, my_agent:{my_agent.shape},pooled_agent:{pooled_player_embeddings.shape},pooled_item:{pooled_item_embeddings.shape},pooled_market:{market.shape}, task.shape:{task.shape}")
+     #obs = torch.cat([tile, my_agent, inventory, market, task], dim=-1) # original
+     
+     obs = torch.cat([tile, my_agent, pooled_player_embeddings, pooled_item_embeddings, market, task], dim=-1)
+@@ -253,21 +253,37 @@ class ItemEncoder(torch.nn.Module):
+     #self.embedding = torch.nn.Embedding(256, 32)
+     #self.fc = torch.nn.Linear(2 * 32 + 12, hidden_size)
+     
+-    self.fc = torch.nn.Linear(17+2+14-2, hidden_size)
++    self.fc = torch.nn.Linear(18+2+14-2, hidden_size)
+     self.discrete_idxs = [1, 14] #type_id:0,1 ...16= 17", equipped:0,1=2"
+     self.discrete_offset = torch.Tensor([2, 0])
+     self.continuous_idxs = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15]
++    # self.continuous_scale = torch.Tensor(
++    #     [
++    #         1 / 10,
++    #         1 / 10,
++    #         1 / 10,
++    #         1 / 100,
++    #         1 / 100,
++    #         1 / 100,
++    #         1 / 40,
++    #         1 / 40,
++    #         1 / 40,
++    #         1 / 100,
++    #         1 / 100,
++    #         1 / 100,
++    #     ]
++    # )
+     self.continuous_scale = torch.Tensor(
+         [
+-            1 / 10,
+-            1 / 10,
+-            1 / 10,
+             1 / 100,
+             1 / 100,
+             1 / 100,
+-            1 / 40,
+-            1 / 40,
+-            1 / 40,
++            1 / 100,
++            1 / 100,
++            1 / 100,
++            1 / 100,
++            1 / 100,
++            1 / 100,
+             1 / 100,
+             1 / 100,
+             1 / 100,
+@@ -278,16 +294,16 @@ class ItemEncoder(torch.nn.Module):
+             print(f"Parameter: {name}, Device: {param.device}")
+ 
+   def forward(self, items):
+-    self.print_device_info()
++    #self.print_device_info()
+     if self.discrete_offset.device != items.device:
+       self.discrete_offset = self.discrete_offset.to(items.device)
+       self.continuous_scale = self.continuous_scale.to(items.device)
+ 
+     #discrete = items[:, :, self.discrete_idxs] + self.discrete_offset
+     #discretes = items[:, :, self.discrete_idxs]
+-   
+-    one_hot_discrete_equipped = F.one_hot(items[:, :, 1].long(), num_classes=2).float()
+-    one_hot_discrete_type_id = F.one_hot(items[:, :, 14].long(), num_classes=17).float()
++    #print(len(items[1][1]))
++    one_hot_discrete_equipped = F.one_hot(items[:, :, 14].long(), num_classes=2).float()
++    one_hot_discrete_type_id = F.one_hot(items[:, :, 1].long(), num_classes=18).float()
+     one_hot_discrete = torch.concat([one_hot_discrete_type_id,one_hot_discrete_equipped], dim=-1)#
+     #print("Item:one_hot_discrete_shape:",one_hot_discrete.shape)
+     
+@@ -296,10 +312,10 @@ class ItemEncoder(torch.nn.Module):
+     #batch, item, attrs, embed = discrete.shape
+     #discrete = discrete.view(batch, item, attrs * embed)
+ 
+-    continuous = items[:, :, self.continuous_idxs] / self.continuous_scale
++    continuous = items[:, :, self.continuous_idxs] * self.continuous_scale
+     
+     item_embeddings = torch.cat([one_hot_discrete, continuous], dim=-1)
+-    print("bf_fc_item_embeddings.shape:",item_embeddings.shape)
++    
+     item_embeddings = self.fc(item_embeddings)
+     #print("item_embeddings.shape:",item_embeddings.shape)
+     return item_embeddings
+@@ -328,7 +344,7 @@ class MarketEncoder(torch.nn.Module):
+     h = self.fc(market)
+     pooled_market_embeddings = h.mean(dim=1)
+     
+-    print(f"market_embedding.shape:{h.shape}, pooled_market_emd.shpae:{pooled_market_embeddings.shape}")
++    #print(f"market_embedding.shape:{h.shape}, pooled_market_emd.shpae:{pooled_market_embeddings.shape}")
+ 
+     return pooled_market_embeddings
+     
+diff --git a/rl_track/train.py b/rl_track/train.py
+index 19d986a..8626037 100644
+--- a/rl_track/train.py
++++ b/rl_track/train.py
+@@ -35,7 +35,7 @@ def setup_env(args):
+         policy_store = DirectoryPolicyStore(args.policy_store_dir)
+ 
+     def make_policy(envs):
+-        learner_policy = policy.Baseline(
++        learner_policy = policy_baseline.Baseline(
+             envs.driver_env,
+             input_size=args.input_size,
+             hidden_size=args.hidden_size,
+@@ -120,16 +120,21 @@ def curriculum_generation_track(trainer, args, use_elm=True):
+ 
+ if __name__ == "__main__":
+     
+-
++    os.environ['CUDA_LAUNCH_BLOCKING'] = '0'
+     # You can either edit the defaults in config.py or set args
+     # from the commandline.
+-    projects=["baseline2"]
+-    for project_name in projects:
+-        logging.basicConfig(level=logging.INFO)
+-        args = config.create_config(config.Config)
+-        args.wandb_project=project_name
++    #projects=["baseline"]
++    #for project_name in projects:
++    logging.basicConfig(level=logging.INFO)
++    args = config.create_config(config.Config)
++    #args.wandb_project=project_name
+     
+-
++    
++    args.runs_dir = "/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track"
++    args.num_envs = 8 #6
++    args.num_maps = 256 #128
++    args.wandb_entity="jimyhzhu"
++    args.wandb_project="baseline"
+     # Avoid OOMing your machine for local testing
+     if args.local_mode:
+         args.num_envs = 1
+@@ -139,6 +144,7 @@ if __name__ == "__main__":
+ 
+     if args.track == "rl":
+       args.tasks_path = BASELINE_CURRICULUM_FILE
++      print("new_args:",args)
+       trainer = setup_env(args)
+       reinforcement_learning_track(trainer, args)
+     elif args.track == "curriculum":

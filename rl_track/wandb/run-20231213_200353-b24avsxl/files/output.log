@@ -1,0 +1,31 @@
+
+name
+INFO:root:PolicyPool: Updated policies: dict_keys(['learner'])
+Traceback (most recent call last):
+  File "/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/train.py", line 149, in <module>
+    reinforcement_learning_track(trainer, args)
+  File "/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/train.py", line 74, in reinforcement_learning_track
+    trainer.evaluate()
+  File "/home/jimyhzhu/miniconda3/envs/NMO/lib/python3.10/site-packages/pufferlib/utils.py", line 223, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/reinforcement_learning/clean_pufferl.py", line 326, in evaluate
+    ) = self.policy_pool.forwards(
+  File "/home/jimyhzhu/miniconda3/envs/NMO/lib/python3.10/site-packages/pufferlib/policy_pool.py", line 75, in forwards
+    atn, lgprob, _, val = policy.get_action_and_value(obs[samp])
+  File "/home/jimyhzhu/miniconda3/envs/NMO/lib/python3.10/site-packages/pufferlib/frameworks/cleanrl.py", line 43, in get_action_and_value
+    logits, value = self.policy(x)
+  File "/home/jimyhzhu/miniconda3/envs/NMO/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jimyhzhu/miniconda3/envs/NMO/lib/python3.10/site-packages/pufferlib/models.py", line 88, in forward
+    hidden, lookup = self.encode_observations(env_outputs)
+  File "/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/reinforcement_learning/policy.py", line 76, in encode_observations
+    market = self.market_encoder(market_embeddings)  #fc +mean pooling already applied
+  File "/home/jimyhzhu/miniconda3/envs/NMO/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/reinforcement_learning/policy.py", line 344, in forward
+    h = self.fc(market)
+  File "/home/jimyhzhu/miniconda3/envs/NMO/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jimyhzhu/miniconda3/envs/NMO/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1024.00 MiB (GPU 0; 31.75 GiB total capacity; 1.33 GiB already allocated; 867.75 MiB free; 1.35 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

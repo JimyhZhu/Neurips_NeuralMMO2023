@@ -1,0 +1,182 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.7
+    code_path: code/rl_track/train.py
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.13
+    start_time: 1702469033.196356
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 13
+      - 14
+      - 16
+      - 23
+      - 35
+      4: 3.10.13
+      5: 0.13.7
+      8:
+      - 5
+attend_task:
+  desc: null
+  value: none
+attentional_decode:
+  desc: null
+  value: true
+bptt_horizon:
+  desc: null
+  value: 8
+checkpoint_interval:
+  desc: null
+  value: 30
+clip_coef:
+  desc: null
+  value: 0.1
+death_fog_tick:
+  desc: null
+  value: null
+device:
+  desc: null
+  value: cuda
+early_stop_agent_num:
+  desc: null
+  value: 8
+encode_task:
+  desc: null
+  value: true
+eval_batch_size:
+  desc: null
+  value: 32768
+eval_mode:
+  desc: null
+  value: false
+eval_num_policies:
+  desc: null
+  value: 2
+eval_num_rounds:
+  desc: null
+  value: 1
+eval_num_steps:
+  desc: null
+  value: 1000000
+explore_bonus_weight:
+  desc: null
+  value: 0.01
+extra_encoders:
+  desc: null
+  value: true
+heal_bonus_weight:
+  desc: null
+  value: 0.03
+hidden_size:
+  desc: null
+  value: 256
+input_size:
+  desc: null
+  value: 256
+learner_weight:
+  desc: null
+  value: 1.0
+local_mode:
+  desc: null
+  value: false
+map_size:
+  desc: null
+  value: 128
+maps_path:
+  desc: null
+  value: maps/train/
+max_episode_length:
+  desc: null
+  value: 1024
+max_opponent_policies:
+  desc: null
+  value: 0
+meander_bonus_weight:
+  desc: null
+  value: 0.02
+num_agents:
+  desc: null
+  value: 128
+num_buffers:
+  desc: null
+  value: 2
+num_cores:
+  desc: null
+  value: null
+num_envs:
+  desc: null
+  value: 8
+num_lstm_layers:
+  desc: null
+  value: 0
+num_maps:
+  desc: null
+  value: 256
+num_npcs:
+  desc: null
+  value: 256
+policy_store_dir:
+  desc: null
+  value: /home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/nmmo_20231213_195946/policy_store
+ppo_learning_rate:
+  desc: null
+  value: 0.00015
+ppo_training_batch_size:
+  desc: null
+  value: 128
+ppo_update_epochs:
+  desc: null
+  value: 3
+resilient_population:
+  desc: null
+  value: 0.2
+rollout_batch_size:
+  desc: null
+  value: 32768
+run_name:
+  desc: null
+  value: nmmo_20231213_195946
+runs_dir:
+  desc: null
+  value: /home/jimyhzhu/work_dir/NeuralMMO2023/rl_track
+seed:
+  desc: null
+  value: 1
+spawn_immunity:
+  desc: null
+  value: 20
+sqrt_achievement_rewards:
+  desc: null
+  value: false
+task_size:
+  desc: null
+  value: 4096
+tasks_path:
+  desc: null
+  value: /home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/reinforcement_learning/curriculum_with_embedding.pkl
+track:
+  desc: null
+  value: rl
+train_num_steps:
+  desc: null
+  value: 10000000
+use_serial_vecenv:
+  desc: null
+  value: false
+wandb_entity:
+  desc: null
+  value: jimyhzhu
+wandb_project:
+  desc: null
+  value: v1

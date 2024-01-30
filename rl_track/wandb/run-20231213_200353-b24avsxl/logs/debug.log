@@ -1,0 +1,27 @@
+2023-12-13 20:03:53,184 INFO    MainThread:2975541 [wandb_setup.py:_flush():68] Configure stats pid to 2975541
+2023-12-13 20:03:53,184 INFO    MainThread:2975541 [wandb_setup.py:_flush():68] Loading settings from /home/jimyhzhu/.config/wandb/settings
+2023-12-13 20:03:53,184 INFO    MainThread:2975541 [wandb_setup.py:_flush():68] Loading settings from /home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/wandb/settings
+2023-12-13 20:03:53,184 INFO    MainThread:2975541 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-12-13 20:03:53,184 INFO    MainThread:2975541 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'rl_track/train.py', 'program': '/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/train.py'}
+2023-12-13 20:03:53,184 INFO    MainThread:2975541 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-12-13 20:03:53,184 INFO    MainThread:2975541 [wandb_init.py:_log_setup():476] Logging user logs to /home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/wandb/run-20231213_200353-b24avsxl/logs/debug.log
+2023-12-13 20:03:53,184 INFO    MainThread:2975541 [wandb_init.py:_log_setup():477] Logging internal logs to /home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/wandb/run-20231213_200353-b24avsxl/logs/debug-internal.log
+2023-12-13 20:03:53,185 INFO    MainThread:2975541 [wandb_init.py:init():516] calling init triggers
+2023-12-13 20:03:53,185 INFO    MainThread:2975541 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'attend_task': 'none', 'attentional_decode': True, 'bptt_horizon': 8, 'checkpoint_interval': 30, 'clip_coef': 0.1, 'death_fog_tick': None, 'device': 'cuda', 'early_stop_agent_num': 8, 'encode_task': True, 'eval_batch_size': 32768, 'eval_mode': False, 'eval_num_policies': 2, 'eval_num_rounds': 1, 'eval_num_steps': 1000000, 'explore_bonus_weight': 0.01, 'extra_encoders': True, 'heal_bonus_weight': 0.03, 'hidden_size': 256, 'input_size': 256, 'learner_weight': 1.0, 'local_mode': False, 'map_size': 128, 'maps_path': 'maps/train/', 'max_episode_length': 1024, 'max_opponent_policies': 0, 'meander_bonus_weight': 0.02, 'num_agents': 128, 'num_buffers': 2, 'num_cores': None, 'num_envs': 8, 'num_lstm_layers': 0, 'num_maps': 256, 'num_npcs': 256, 'policy_store_dir': '/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/nmmo_20231213_195946/policy_store', 'ppo_learning_rate': 0.00015, 'ppo_training_batch_size': 128, 'ppo_update_epochs': 3, 'resilient_population': 0.2, 'rollout_batch_size': 32768, 'run_name': 'nmmo_20231213_195946', 'runs_dir': '/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track', 'seed': 1, 'spawn_immunity': 20, 'sqrt_achievement_rewards': False, 'task_size': 4096, 'tasks_path': '/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track/reinforcement_learning/curriculum_with_embedding.pkl', 'track': 'rl', 'train_num_steps': 10000000, 'use_serial_vecenv': False, 'wandb_entity': 'jimyhzhu', 'wandb_project': 'v1'}
+2023-12-13 20:03:53,185 INFO    MainThread:2975541 [wandb_init.py:init():569] starting backend
+2023-12-13 20:03:53,185 INFO    MainThread:2975541 [wandb_init.py:init():573] setting up manager
+2023-12-13 20:03:53,190 INFO    MainThread:2975541 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-13 20:03:53,196 INFO    MainThread:2975541 [wandb_init.py:init():580] backend started and connected
+2023-12-13 20:03:53,204 INFO    MainThread:2975541 [wandb_init.py:init():658] updated telemetry
+2023-12-13 20:03:53,209 INFO    MainThread:2975541 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-12-13 20:03:53,756 INFO    MainThread:2975541 [wandb_run.py:_on_init():2006] communicating current version
+2023-12-13 20:03:53,828 INFO    MainThread:2975541 [wandb_run.py:_on_init():2010] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-12-13 20:03:53,828 INFO    MainThread:2975541 [wandb_init.py:init():728] starting run threads in backend
+2023-12-13 20:03:58,840 INFO    MainThread:2975541 [wandb_run.py:_console_start():1986] atexit reg
+2023-12-13 20:03:58,840 INFO    MainThread:2975541 [wandb_run.py:_redirect():1844] redirect: SettingsConsole.WRAP_RAW
+2023-12-13 20:03:58,841 INFO    MainThread:2975541 [wandb_run.py:_redirect():1909] Wrapping output streams.
+2023-12-13 20:03:58,841 INFO    MainThread:2975541 [wandb_run.py:_redirect():1931] Redirects installed.
+2023-12-13 20:03:58,841 INFO    MainThread:2975541 [wandb_init.py:init():765] run started, returning control to user process
+2023-12-13 20:04:10,146 WARNING MsgRouterThr:2975541 [router.py:message_loop():77] message_loop has been closed

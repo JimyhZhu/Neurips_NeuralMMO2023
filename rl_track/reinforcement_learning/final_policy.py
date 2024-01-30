@@ -57,11 +57,7 @@ class Baseline(pufferlib.models.Policy):
         self.max_pool = torch.nn.MaxPool1d(kernel_size=2, stride=2)
 
     def encode_observations(self, flat_observations):
-        '''
-        player_embeddings、item_embedding做pooling
-        market_embeddings做mean_pooling
-        mean pooling和max pooling
-        '''
+      
         env_outputs = pufferlib.emulation.unpack_batched_obs(flat_observations,
                                                              self.flat_observation_space,
                                                              self.flat_observation_structure)
@@ -79,23 +75,14 @@ class Baseline(pufferlib.models.Policy):
 
         task = self.task_encoder(env_outputs["Task"])
 
-        # print(f"emb player:{player_embeddings.shape}, item:{item_embeddings.shape}, market_embeddings:{market_embeddings.shape}")
-        # print(f"tile:{tile.shape}, my_agent:{my_agent.shape}, inventory:{inventory.shape}, market:{market.shape}")
 
-        # pooled_player_embeddings = self.mean_pool(player_embeddings)
-        # pooled_item_embeddings = self.mean_pool(item_embeddings)
         pooled_item_embeddings = item_embeddings.mean(dim=1)
         pooled_player_embeddings = player_embeddings.mean(dim=1)
 
-        # print(f"tile:{tile.shape}, my_agent:{my_agent.shape},pooled_agent:{pooled_player_embeddings.shape},pooled_item:{pooled_item_embeddings.shape},pooled_market:{market.shape}, task.shape:{task.shape}")
-        # obs = torch.cat([tile, my_agent, inventory, market, task], dim=-1) # original
-
+   
         obs = torch.cat([tile, my_agent, pooled_player_embeddings, pooled_item_embeddings, market, task], dim=-1)
         obs = self.proj_fc(obs)
 
-        bs, m, c_m = market_embeddings.shape
-        bs, i, c_i = item_embeddings.shape
-        bs, p, c_p = player_embeddings.shape
         '''
         inventory_sell_emb =torch.cat([item_embeddings, market.unsqueeze(1)], dim=1)
         inventory_use_emb = torch.cat([item_embeddings, pooled_player_embeddings.unsqueeze(1)], dim=1)
@@ -211,11 +198,7 @@ class PlayerEncoder(torch.nn.Module):
         '''
         self.num_classes_npc_type = 5  # only using npc_type for one hot (0,4)
 
-        # self.player_offset = torch.tensor([i * 256 for i in range(self.entity_dim)])
-        # self.embedding = torch.nn.Embedding((self.entity_dim+self.num_classes_npc_type-1) * 256, 32)
-        # self.agent_fc = torch.nn.Linear(self.entity_dim * 32, hidden_size)
-        # self.my_agent_fc = torch.nn.Linear(self.entity_dim * 32, input_size)
-
+        
         self.agent_fc = torch.nn.Linear(self.entity_dim + 5 - 1, hidden_size)
         self.my_agent_fc = torch.nn.Linear(self.entity_dim + 5 - 1, input_size)
 
@@ -228,14 +211,7 @@ class PlayerEncoder(torch.nn.Module):
         one_hot_npc_type = F.one_hot(npc_type.long(),
                                      num_classes=self.num_classes_npc_type).float()  # Subtract 1 if npc_type starts from 1
         one_hot_agents = torch.cat([agents[:, :, :1], one_hot_npc_type, agents[:, :, 2:]], dim=-1)
-        # print(f"original_agents_shape:{agents.shape}, one_hot_agents_shape:{one_hot_agents.shape}")
-
-        # agent_embeddings = self.embedding(
-        #     agents.long().clip(0, 255) + self.player_offset.to(agents.device)
-        # )
-        # agent_embeddings = self.embedding(
-        #     one_hot_agents.long().clip(0, 255).to(one_hot_agents.device)
-        # )
+        
 
         agent_ids = one_hot_agents[:, :, EntityId]
         mask = (agent_ids == my_id.unsqueeze(1)) & (agent_ids != 0)
@@ -252,9 +228,7 @@ class PlayerEncoder(torch.nn.Module):
         my_agent_embeddings = one_hot_agents[
             torch.arange(one_hot_agents.shape[0]), row_indices
         ]
-        # print("agent_embeddings:",agent_embeddings.shape)
-        # self.print_device_info()
-        # print(f"my_id:{my_id},agent_embeddings:{agent_embeddings.shape}, my_agent_embeddings:{my_agent_embeddings.shape}")
+
         agent_embeddings = self.agent_fc(one_hot_agents.cuda())
         my_agent_embeddings = self.my_agent_fc(my_agent_embeddings)
         my_agent_embeddings = F.relu(my_agent_embeddings)
@@ -322,7 +296,7 @@ class ItemEncoder(torch.nn.Module):
         item_embeddings = torch.cat([one_hot_discrete, continuous], dim=-1)
 
         item_embeddings = self.fc(item_embeddings)
-        # print("item_embeddings.shape:",item_embeddings.shape)
+   
         return item_embeddings
 
 
@@ -346,9 +320,6 @@ class MarketEncoder(torch.nn.Module):
     def forward(self, market):
         h = self.fc(market)
         pooled_market_embeddings = h.mean(dim=1)
-
-        # print(f"market_embedding.shape:{h.shape}, pooled_market_emd.shpae:{pooled_market_embeddings.shape}")
-
         return pooled_market_embeddings
 
 
@@ -380,8 +351,8 @@ class ActionDecoder(torch.nn.Module):
                 "inventory_use": torch.nn.Linear(hidden_size, hidden_size),
             }
         )
-        self.attention = CrossAttentionModule(input_dim=256, output_dim=256)
-        self.self_attention = SelfAttentionModule(input_dim=256, output_dim=256)
+        #self.attention = CrossAttentionModule(input_dim=256, output_dim=256)
+        #self.self_attention = SelfAttentionModule(input_dim=256, output_dim=256)
 
     def apply_layer(self, layer, embeddings, mask, hidden):
         hidden = layer(hidden)
@@ -458,16 +429,17 @@ class ActionDecoder(torch.nn.Module):
             hidden_new = hiddens.get(key)
             if hidden_new == None:
               hidden_new = hidden
-            '''
+            
             #Self attention
             #hidden_new = self.self_attention(hidden)
-
-            action = self.apply_layer(layer, embs, mask, hidden_new)
+            '''
+            
+            action = self.apply_layer(layer, embs, mask, hidden)
             actions.append(action)
 
         return actions
 
-
+#Not Used
 class CrossAttentionModule(torch.nn.Module):
     def __init__(self, input_dim, output_dim):
         super(CrossAttentionModule, self).__init__()
@@ -478,20 +450,16 @@ class CrossAttentionModule(torch.nn.Module):
         self.value = torch.nn.Linear(input_dim, output_dim)
 
     def forward(self, x, hidden):
-        # Assuming x is embeddings with shape (batch_size, seq_len, features)
-        # and hidden is hidden state with shape (batch_size, features)
+
         q = self.query(hidden)  # Queries from hidden state
         k = self.key(x)  # Keys from embeddings
         v = self.value(x)  # Values from embeddings
-        # print("embeddings:",x.shape)
-        # print("hidden",hidden.shape)
-        # Calculate attention scores
+       
         attention_scores = torch.matmul(q.unsqueeze(1), k.transpose(-2, -1)) / (self.input_dim ** 0.5)
         attention_scores = F.softmax(attention_scores, dim=-1)
-        # print("attention_scores", attention_scores.shape)
-        # Apply attention scores to the values
+     
         attention_output = torch.matmul(attention_scores, v).squeeze(1)
-        # print("attention output",attention_output.shape)
+      
         return attention_output
 
 

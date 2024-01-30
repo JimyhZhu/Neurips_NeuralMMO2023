@@ -13,17 +13,10 @@ from reinforcement_learning import clean_pufferl, config, final_policy
 # BASELINE_CURRICULUM_FILE = "reinforcement_learning/curriculum_with_embedding.pkl"
 # CUSTOM_CURRICULUM_FILE = "curriculum_generation/custom_curriculum_with_embedding.pkl"
 
-# root = os.getcwd()
-# print(root)
-root = "/home/jimyhzhu/work_dir"
-BASELINE_CURRICULUM_FILE = os.path.join(
-    root, "NeuralMMO2023/rl_track/reinforcement_learning/curriculum_with_embedding.pkl"
-)
-CUSTOM_CURRICULUM_FILE = os.path.join(
-    root,
-    "NeuralMMO2023/rl_tracurriculum_generation/custom_curriculum_with_embedding.pkl",
-)
 
+
+BASELINE_CURRICULUM_FILE = "reinforcement_learning/curriculum_with_embedding.pkl"
+CUSTOM_CURRICULUM_FILE = "curriculum_generation/custom_curriculum_with_embedding.pkl"
 
 def setup_env(args):
     run_dir = os.path.join(args.runs_dir, args.run_name)
@@ -137,19 +130,16 @@ def curriculum_generation_track(trainer, args, use_elm=True):
 
 if __name__ == "__main__":
     os.environ["CUDA_LAUNCH_BLOCKING"] = "0"
-    # You can either edit the defaults in config.py or set args
-    # from the commandline.
-    # projects=["baseline"]
-    # for project_name in projects:
+   
     logging.basicConfig(level=logging.INFO)
     args = config.create_config(config.Config)
-    # args.wandb_project=project_name
+    
 
     args.runs_dir = "/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track"
     args.num_envs = 8  # 6
     args.num_maps = 256  # 128
     args.wandb_entity = "jimyhzhu"
-    args.wandb_project = "v1"
+    args.wandb_project = "final"
     # Avoid OOMing your machine for local testing
     if args.local_mode:
         args.num_envs = 1

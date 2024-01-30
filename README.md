@@ -8,3 +8,6 @@ NMMO2023
 
 # Final :
 ![image](https://github.com/JimyhZhu/NeuralMMO2023/assets/107805962/72932430-ee29-438c-9908-be7d820ee223)
+
+![image](https://github.com/JimyhZhu/Neurips_NeuralMMO2023/assets/107805962/699fe542-9872-4725-a5cd-127f550766a3)
+![image](https://github.com/JimyhZhu/Neurips_NeuralMMO2023/assets/107805962/ac162905-7267-435e-92e5-202b803213be)

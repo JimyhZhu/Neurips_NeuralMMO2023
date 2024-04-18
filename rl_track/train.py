@@ -135,7 +135,7 @@ if __name__ == "__main__":
     args = config.create_config(config.Config)
     
 
-    args.runs_dir = "/home/jimyhzhu/work_dir/NeuralMMO2023/rl_track"
+    args.runs_dir = "root/work_dir/Neurips_NeuralMMO2023/rl_track/runs"
     args.num_envs = 8  # 6
     args.num_maps = 256  # 128
     args.wandb_entity = "jimyhzhu"
